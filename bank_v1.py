@@ -121,7 +121,7 @@ while True:
 # informando que ainda não houve nenhuma operação registrada no extrato:
 
         else:
-            print("Nenhuma operação registrada no extrato ainda.")
+            print(f"Nenhuma operação registrada no extrato ainda. Seu saldo atual é de R${saldo:.2f}")
 
 # Se o usuário escolher a opção "q", o loop infinito é quebrado, e o programa é encerrado.
 
